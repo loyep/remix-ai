@@ -1,0 +1,12 @@
+{
+  "name": "@t3-ai/shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "tsc": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.22.2"
+  }
+}
