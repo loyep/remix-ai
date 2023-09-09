@@ -1,6 +1,5 @@
 /** @type {import('@remix-run/dev').AppConfig} */
 module.exports = {
-  cacheDirectory: "./node_modules/.cache/remix",
   future: {
     v2_dev: true,
     v2_errorBoundary: true,
@@ -9,8 +8,11 @@ module.exports = {
     v2_normalizeFormMethod: true,
     v2_routeConvention: true,
   },
-  ignoredRouteFiles: ["**/.*", "**/*.test.{js,jsx,ts,tsx}"],
-  postcss: true,
+  ignoredRouteFiles: ["**/.*"],
   serverModuleFormat: "cjs",
+  // appDirectory: "app",
+  // assetsBuildDirectory: "public/build",
+  // serverBuildPath: "build/index.js",
+  // publicPath: "/build/",
   tailwind: true,
 };
