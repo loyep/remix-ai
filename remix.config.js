@@ -11,6 +11,9 @@ module.exports = {
   ignoredRouteFiles: ["**/.*"],
   cacheDirectory: "./node_modules/.cache/remix",
   serverModuleFormat: "cjs",
+  serverDependenciesToBundle: [
+    'postgres',
+  ],
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
   // serverBuildPath: "build/index.js",
