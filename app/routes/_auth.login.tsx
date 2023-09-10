@@ -2,10 +2,10 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import type { V2_MetaFunction } from "@remix-run/react";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
-import { Button } from "~/components/ui/button";
-import { Checkbox } from "~/components/ui/checkbox";
-import { Input } from "~/components/ui/input";
-import authSvg from "../components/icons/auth.svg";
+import { Button } from "~/client/components/ui/button";
+import { Checkbox } from "~/client/components/ui/checkbox";
+import { Input } from "~/client/components/ui/input";
+import authSvg from "../client/components/icons/auth.svg";
 
 export const meta: V2_MetaFunction = () => [{ title: "New Remix App" }];
 
@@ -53,7 +53,6 @@ export default function Login() {
                 className="text-muted-400 hover:text-primary-500 flex items-center gap-2 font-sans font-medium transition-colors duration-300"
               >
                 <svg
-                  data-v-cd102a71=""
                   xmlns="http://www.w3.org/2000/svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                   aria-hidden="true"
@@ -117,7 +116,6 @@ export default function Login() {
               <div className="flex flex-wrap justify-between gap-4">
                 <button className="dark:bg-muted-700 text-muted-800 border-muted-300 dark:border-muted-600 nui-focus relative inline-flex grow items-center justify-center gap-2 rounded-xl border bg-white px-6 py-4 dark:text-white">
                   <svg
-                    data-v-cd102a71=""
                     xmlns="http://www.w3.org/2000/svg"
                     xmlnsXlink="http://www.w3.org/1999/xlink"
                     aria-hidden="true"
@@ -148,7 +146,6 @@ export default function Login() {
                 </button>
                 <Button className="bg-muted-200 dark:bg-muted-700 hover:bg-muted-100 dark:hover:bg-muted-600 text-muted-600 dark:text-muted-400 nui-focus w-[calc(50%_-_0.5rem)] cursor-pointer rounded-xl px-5 py-4 text-center transition-colors duration-300 md:w-auto">
                   <svg
-                    data-v-cd102a71=""
                     xmlns="http://www.w3.org/2000/svg"
                     xmlnsXlink="http://www.w3.org/1999/xlink"
                     aria-hidden="true"
@@ -166,7 +163,6 @@ export default function Login() {
                 </Button>
                 <Button className="bg-muted-200 dark:bg-muted-700 hover:bg-muted-100 dark:hover:bg-muted-600 text-muted-600 dark:text-muted-400 nui-focus w-[calc(50%_-_0.5rem)] cursor-pointer rounded-xl px-5 py-4 text-center transition-colors duration-300 md:w-auto">
                   <svg
-                    data-v-cd102a71=""
                     xmlns="http://www.w3.org/2000/svg"
                     xmlnsXlink="http://www.w3.org/1999/xlink"
                     aria-hidden="true"
@@ -247,9 +243,9 @@ export default function Login() {
                           <path
                             fill="none"
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="4"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="4"
                             d="M2 12h20"
                           ></path>
                         </svg>

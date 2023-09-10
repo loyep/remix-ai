@@ -1,5 +1,5 @@
 import type { V2_MetaFunction } from "@remix-run/react";
-import { Button } from "~/components/ui/button";
+import { Button } from "~/client/components/ui/button";
 
 export const meta: V2_MetaFunction = () => [
   { title: "New Remix App" },
