@@ -1,7 +1,13 @@
 import type { V2_MetaFunction } from "@remix-run/react";
 import { Button } from "~/components/ui/button";
 
-export const meta: V2_MetaFunction = () => [{ title: "New Remix App" }];
+export const meta: V2_MetaFunction = () => [
+  { title: "New Remix App" },
+  {
+    name: "description",
+    content: "Remix AI",
+  },
+];
 
 export default function Index() {
   return (
