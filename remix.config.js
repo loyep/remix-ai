@@ -9,6 +9,7 @@ module.exports = {
     v2_routeConvention: true,
   },
   ignoredRouteFiles: ["**/.*"],
+  cacheDirectory: "./node_modules/.cache/remix",
   serverModuleFormat: "cjs",
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
